@@ -11,7 +11,7 @@ public class AceInvoice_TC_01 {
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
 
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Desktop\\selenium 64 bit\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\Shree\\Desktop\\cypress QA tests\\selenium 64 bit\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
