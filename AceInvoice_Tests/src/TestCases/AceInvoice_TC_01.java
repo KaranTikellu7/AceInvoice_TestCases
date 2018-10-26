@@ -17,7 +17,7 @@ public class AceInvoice_TC_01 {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.get("http://staging.aceinvoice.com/sign_in/");
-			
+			driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("abcd@gmail.com");
 					
 		}
 
